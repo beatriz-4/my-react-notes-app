@@ -1,0 +1,101 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+h1{
+  color: rgb(103, 62, 13);
+  font-family: 'Press Start 2P', monospace; /* pixel font */
+  font-weight: bold;
+  background: #d9d9d9;
+  padding: 40px 40px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 4px 4px 0 #aaa;
+  margin-bottom: 90px;
+}
+
+.title span {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+
+.main {
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 600px;
+  max-width: 800px;
+  min-height: 600px;
+  height: auto;   
+  padding-left: 300px;   
+  padding-right: 300px;   
+  padding: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+
+  background: rgba(213, 222, 230, 0.6);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+
+  border-radius: 12px;
+  box-shadow: 0 40px 90px rgba(0, 0, 0, 0.35);
+}
+
+
+
+body {
+  background-color: #6d91b1;
+  background-image: radial-gradient(circle at 50% 0%, #d1e8ff 0%, #6d91b1 100%);
+}
+
+
+.notes-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
